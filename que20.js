@@ -7,7 +7,7 @@ class RailwtTicket {
 
     input() {
         this.name = prompt("Enter your name");
-        this.coach = prompt("Enter the coach you wanna book");
+        this.coach = prompt("Enter the coach ");
         this.mobno = parseInt(prompt("Enter  mobile number"));
         this.amt = parseInt(prompt("Enter basic amount"));
     }
